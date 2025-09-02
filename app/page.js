@@ -75,6 +75,7 @@ export default function Home() {
                   transition-transform duration-300 ease-[cubic-bezier(.2,.8,.2,1)]
                   transform-gpu origin-center
                   group-hover:scale-105            /* label grows with the circle */
+                  text-center
                 "
               >
                 Run Simulations
