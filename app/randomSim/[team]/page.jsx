@@ -511,7 +511,7 @@ const page = ({ params }) => {
         <div className='flex flex-col justify-center items-center gap-2'>
           <h3 className='text-xl font-bold'>Random Simulation</h3>
 
-          <p className="text-lg">
+          <p className="text-lg text-center md:m-2">
             A total of <span className="font-semibold">{gamesToSimulate}</span> games have been completed, with <span className="font-semibold">{totalGames - gamesToSimulate}</span> games still remaining.
           </p>
 
