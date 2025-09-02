@@ -28,7 +28,7 @@ export default function Home() {
         <div className="font-bold text-2xl text-center gap-2 my-14">
           Different options
         </div>
-        <div className="options flex justify-between md:justify-around gap-5 my-4">
+        <div className="options flex justify-between gap-5 m-4">
 
           <Link href="/schedule" className="group hover:cursor-pointer">
             <div className="schedule flex flex-col items-center justify-center gap-2">
