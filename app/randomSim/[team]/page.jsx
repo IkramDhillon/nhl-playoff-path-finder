@@ -487,7 +487,7 @@ const page = ({ params }) => {
       {!firstSimulationCompleted &&
         <div className="flex flex-col justify-center items-center gap-2 mb-2">
           <h3 className="text-xl font-bold">Random Simulation</h3>
-          <p className="text-lg">The schedule for latest season has been fetched</p>
+          <p className="text-lg text-center md:m-2">The schedule for latest season has been fetched</p>
 
           <p className="text-lg">Total Regular Season Games: <span className="font-semibold">{totalGames}</span></p>
 
