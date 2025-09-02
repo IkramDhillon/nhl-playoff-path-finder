@@ -4,7 +4,7 @@ export async function GET(req) {
     try {
 
         //Fetch the NHL calendar from our own API route
-        const res = await fetch(new URL('/api/nhl-calendar', req.url), {cache: 'no-store'};
+        const res = await fetch(new URL('/api/nhl-calendar', req.url), {cache: 'no-store'});
 
         if (!res.ok) {
             return NextResponse.json({ error: 'Failed to fetch NHL calendar' }, { status: 500 });
