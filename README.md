@@ -13,6 +13,6 @@
 
 ## Assumptions (simple by design)
 - Clean regulation wins only (2 pts); no OT/SO points.  
-- Focus on division standings; target = Top-3 (configurable).  
+- Focus on division standings; target = Top-3.  
 
 > Personal project — intentionally minimal and easy to extend.
