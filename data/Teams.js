@@ -32,7 +32,7 @@ class teams {
     MIN = new Team("Central Division","Western Conference","MIN","Minnesota Wild", "/TeamLogos/CentralDivision/MIN.png");
     NSH = new Team("Central Division","Western Conference","NSH","Nashville Predators", "/TeamLogos/CentralDivision/NSH.png");
     STL = new Team("Central Division","Western Conference","STL","St. Louis Blues", "/TeamLogos/CentralDivision/STL.png");
-    UTA = new Team("Central Division","Western Conference","UTAH","Utah Mammoth", "/TeamLogos/CentralDivision/UTA.png");
+    UTA = new Team("Central Division","Western Conference","UTA","Utah Mammoth", "/TeamLogos/CentralDivision/UTA.png");
     WPG = new Team("Central Division","Western Conference","WPG","Winnipeg Jets", "/TeamLogos/CentralDivision/WPG.png");
 
     // Pacific Division
