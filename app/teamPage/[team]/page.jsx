@@ -53,8 +53,10 @@ const Team = ({ params }) => {
 
       // If the team object is found, set its position and points
       if (reqTeamObject) {
-        reqTeamObject.setPoints(teamListFromDivision[i].stats[8].value);
-        reqTeamObject.setTotalMatchesPlayed(teamListFromDivision[i].stats[4].value);
+        let points = teamListFromDivision[i].stats.find(stats => stats.abbreviation === "PTS");
+        let matchesPlayed = teamListFromDivision[i].stats.find(stats => stats.name === "gamesPlayed");
+        reqTeamObject.setPoints(points.value);
+        reqTeamObject.setTotalMatchesPlayed(matchesPlayed.value);
       }
     }
 
