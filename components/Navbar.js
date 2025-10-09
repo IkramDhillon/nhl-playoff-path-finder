@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -10,7 +11,7 @@ export default function Navbar() {
       <div className="flex h-16 items-center justify-between px-3">
         {/* Brand */}
         <Link href="/" className="flex items-center gap-2">
-          <img className=" w-8 h-8 md:w-10 md:h-10" src="/hockey.png" alt="" />
+          <Image className=" w-8 h-8 md:w-10 md:h-10" width={32} height={32} src="/hockey.png" alt="" />
           <h1 className="font-bold text-xl md:text-2xl">PlayoffPathfinder</h1>
         </Link>
 
