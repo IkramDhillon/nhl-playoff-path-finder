@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -32,16 +33,18 @@ export default function Home() {
 
           <Link href="/schedule" className="group hover:cursor-pointer">
             <div className="schedule flex flex-col items-center justify-center gap-2">
-              <img
+              <Image
                 src="/schedule.gif"
                 alt="Schedule"
                 width={150}
+                height={150}
                 className="
                   bg-gray-900 rounded-full p-7
                   transition-transform duration-300 ease-[cubic-bezier(.2,.8,.2,1)]
                   transform-gpu origin-center
                   group-hover:scale-105            /* enlarge only on hover */
                 "
+                  priority
               />
               <p
                 className="
@@ -58,16 +61,18 @@ export default function Home() {
 
           <Link href="/simulator" className="group hover:cursor-pointer">
             <div className="schedule flex flex-col items-center justify-center gap-2">
-              <img
+              <Image
                 src="/simulation.gif"
                 alt="Simulations"
                 width={150}
+                height={150}
                 className="
                   bg-gray-900 rounded-full p-7
                   transition-transform duration-300 ease-[cubic-bezier(.2,.8,.2,1)]
                   transform-gpu origin-center
                   group-hover:scale-105            /* enlarge only on hover */
                 "
+                  priority
               />
               <p
                 className="
@@ -85,16 +90,18 @@ export default function Home() {
 
           <Link href="/standings" className="group hover:cursor-pointer">
             <div className="schedule flex flex-col items-center justify-center gap-2">
-              <img
+              <Image
                 src="/position.gif"
                 alt="Standings"
                 width={150}
+                height={150}
                 className="
                   bg-gray-900 rounded-full p-7
                   transition-transform duration-300 ease-[cubic-bezier(.2,.8,.2,1)]
                   transform-gpu origin-center
                   group-hover:scale-105            /* enlarge only on hover */
                 "
+                  priority
               />
               <p
                 className="
