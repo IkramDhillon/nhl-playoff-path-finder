@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex justify-center h-[44vh] items-center flex-col gap-5">
         <div className="font-bold text-2xl flex justify-center gap-2">
           NHL Playoff Path Finder
-          <img width={34} src="/hockey.png" alt="" />
+          <Image width={34} height={34} src="/hockey.png" alt="" />
         </div>
 
         <p className='text-center mx-2 md:m-0'>
